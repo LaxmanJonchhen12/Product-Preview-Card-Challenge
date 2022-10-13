@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-origin: border-box;
+}
+
+.container{
+	background-color: hsl(30, 38%, 92%);
+	padding: 10px 0;
+}
+
+.card{
+	margin: 1rem;
+    border-radius: 1rem;
+    /*width: 92%;*/
+}
+
+.img img {
+	width: 100%;
+	border-radius: 1rem 1rem 0 0;
+}
+
+.description{
+	padding: 0 0 0 1rem;
+	background:white;
+}
+
+#product{
+	    padding: 0.5rem 0;
+	    font-family: 'Montserrat', sans-serif;
+    	font-size: 0.8rem;
+    	font-weight: 500;
+    	color: hsl(228, 12%, 48%);
+}
+
+#product__info{
+	    max-width: 550px;
+	    width:95%;
+	    font-size: 0.875rem;
+		line-height: 1.3rem;
+		font-family: 'Montserrat', sans-serif;
+		color: hsl(228, 12%, 48%);
+}
+
+#product__name{
+	padding: 0 0 1rem 0;
+	max-width: 300px;
+	font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+}
+
+#price{
+	display: flex;
+	align-items: center;
+	padding: 1rem 0 0 0;
+	font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+#main__price{
+	color: hsl(158, 36%, 37%);
+}
+
+#discount__price{
+	    padding: 0 0 0 1rem;
+	    color: hsl(228, 12%, 48%);
+		text-decoration: line-through;
+		 font-size: 0.7rem;
+    	font-weight: 400;
+}
+
+#cart{
+	text-align: center;
+    padding: 0.7rem;
+    width: 95%;
+    margin: 1rem 0;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border:none;
+    border-radius: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#cart:hover{
+	background-color:#043927;
+}
+
+#btn__text{
+	    padding: 0 0 0 0.5rem;
+}
+
+@media screen and (min-width: 992px) {
+
+	.container{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 110px 0;
+	}
+
+	.card{
+		display: flex;
+		margin: 0rem;
+		max-width: 560px;
+	}
+
+	.img{
+		width: 50%;
+	}
+
+	.img img{
+		border-radius: 1rem 0 0 1rem;
+		content: url(".././images/image-product-desktop.jpg");
+	}
+
+	.description{
+		border-radius: 0 1rem 1rem 0;
+		padding: 1.5rem 0 0 1.5rem;
+		width: 50%;
+	}
+
+	#product__name{
+		max-width: 13.375rem;
+	}
+
+	#product__info{
+		max-width: 15rem;
+	}
+
+	#cart{
+		width: 90%;
+	}
+
+}
