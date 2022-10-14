@@ -21,8 +21,9 @@
 }
 
 .description{
-	padding: 0 0 0 1rem;
+	padding: 0 0 0.5rem 1rem;
 	background:white;
+	border-radius: 0 0 1rem 1rem;
 }
 
 #product{
