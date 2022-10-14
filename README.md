@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot.jpg)
+![](./images/Screenshot.JPG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/LaxmanJonchhen12/Product-Preview-Card-Challenge)
+- Live Site URL: [Netlify](https://productpreivewcardchallengelaxman.netlify.app/)
 
 ## My process
 
